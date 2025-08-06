@@ -1,0 +1,21 @@
+body {
+  background-color: #d6f6fe; /* light warm cream color, you can change this */
+  color: #002fff; /* dark gray text for good contrast */
+}
+
+.section-header {
+  display: flex;
+  align-items: center;         /* vertically center them */
+  justify-content: flex-start; /* or use flex-start for tight alignment */
+  gap: 1rem;                   /* spacing between heading and button */
+}
+
+.copy-btn {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0;
+}
