@@ -39,3 +39,27 @@ body {
     margin: 1rem auto; /* center it under the heading */
   }
 }
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: none;
+  background: #002fff;
+  color: white;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 300px;
+  padding: 0.5rem;
+  z-index: 1000;
+}

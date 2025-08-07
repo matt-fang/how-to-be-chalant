@@ -69,3 +69,10 @@ friendInput.addEventListener('input', () => {
     span.textContent = name ? name : 'them';
   });
 });
+
+const toggle = document.querySelector(".dropdown-toggle");
+const content = document.querySelector(".dropdown-content");
+
+toggle.addEventListener("click", () => {
+  content.style.display = content.style.display === "block" ? "none" : "block";
+});
