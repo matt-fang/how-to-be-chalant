@@ -10,7 +10,7 @@ body {
   gap: 0.5rem;                   /* spacing between heading and button */
 }
 
-.link-btn {
+.copy-btn {
   background: none;
   border: none;
   color: inherit;
